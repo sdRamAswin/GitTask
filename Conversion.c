@@ -9,7 +9,6 @@ int Get_operator_precedence(char Operator)
 {
 	switch (Operator) {
 	case '+':
-		return 1;
 	case '-':
 		return 1;
 	case '*':
